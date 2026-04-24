@@ -1,1 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matias Isarrualde · Sr Product Designer</title>
+    <meta name="description" content="Diseño productos 0→1 de IA y Data. Ex-AirKit, adquirida por Salesforce.">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+            line-height: 1.6; 
+            color: #1a1a1a; 
+            background: #fff;
+            padding: 40px 20px;
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        header { margin-bottom: 80px; }
+        h1 { font-size: 48px; font-weight: 700; margin-bottom: 8px; letter-spacing: -1px; }
+        .subtitle { font-size: 20px; color: #666; margin-bottom: 24px; max-width: 600px; }
+        .bio { font-size: 18px; color: #333; max-width: 600px; margin-bottom: 40px; }
+        .tags { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 60px; }
+        .tag { background: #f4f4f4; padding: 6px 14px; border-radius: 20px; font-size: 14px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; }
+        .card { text-decoration: none; color: inherit; }
+        .card:hover h3 { color: #0070f3; }
+        .card img { 
+            width: 100%; 
+            border-radius: 12px; 
+            border: 1px solid #eee; 
+            margin-bottom: 16px;
+            aspect-ratio: 16/10;
+            object-fit: cover;
+        }
+        h3 { font-size: 22px; margin-bottom: 8px; }
+        .meta { font-size: 14px; color: #666; margin-bottom: 8px; }
+        .desc { font-size: 16px; color: #444; }
+        footer { margin-top: 100px; padding-top: 40px; border-top: 1px solid #eee; font-size: 14px; color: #666; }
+        .contact { margin-top: 16px; }
+        .contact a { color: #0070f3; text-decoration: none; margin-right: 20px; }
+        @media (max-width: 600px) {
+            h1 { font-size: 36px; }
+            body { padding: 24px 16px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Matias Isarrualde</h1>
+        <p class="subtitle">Sr Product Designer</p>
+        <p class="bio">Diseño productos 0→1 de IA y Data. Traduzco complejidad técnica a UX simple. Especializado en Agentic AI y workflows enterprise. Ex-AirKit, adquirida por Salesforce en 14 días post-launch.</p>
+        <div class="tags">
+            <span class="tag">0→1</span>
+            <span class="tag">Agentic AI</span>
+            <span class="tag">B2B Enterprise</span>
+            <span class="tag">Design Systems</span>
+            <span class="tag">Barcelona</span>
+        </div>
+    </header>
 
+    <main class="grid">
+        <a href="airkit.html" class="card">
+            <img src="img/airkit-cover.png" alt="AirKit Prompt Builder">
+            <p class="meta">May - Nov 2023 · 0→1 · Lead Design</p>
+            <h3>AirKit → Salesforce: Builder de Agentes IA</h3>
+            <p class="desc">Diseñé 100% los flows y UI del pivot a IA que terminó en exit. Equipo de 2 diseñadores, 6 semanas.</p>
+        </a>
+
+        <a href="hevo.html" class="card">
+            <img src="img/hevo-cover.png" alt="Hevo Workflows">
+            <p class="meta">May - Ago 2022 · B2B Data · 0→1 Feature</p>
+            <h3>Hevo Workflows: Orquestador no-code para Data Engineers</h3>
+            <p class="desc">Reduje el setup de pipelines de 3 días a 20 min. 68% de adopción en beta sin soporte.</p>
+        </a>
+
+        <a href="#" class="card">
+            <img src="img/workspace-cover.png" alt="AirKit Studio">
+            <p class="meta">May - Sep 2023 · B2B SaaS · Design System</p>
+            <h3>AirKit Studio: Workspace low-code para equipos técnicos</h3>
+            <p class="desc">El "antes" del pivot. Rediseñé el core para devs y CTOs. Base para el futuro Prompt Builder.</p>
+        </a>
+    </main>
+
+    <footer>
+        <p>Disponible para nuevos proyectos en Barcelona.</p>
+        <div class="contact">
+            <a href="mailto:tu-email@gmail.com">Email</a>
+            <a href="https://linkedin.com/in/tu-linkedin">LinkedIn</a>
+            <a href="cv.pdf">CV</a>
+        </div>
+    </footer>
+</body>
+</html>
